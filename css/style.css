@@ -11,6 +11,7 @@ body {
 
 section {
     padding: 30px 90px 0;
+    clear: both;
 }
 
 h1, h2 {
@@ -20,6 +21,7 @@ h1, h2 {
 
 h2 {
     font-size: 20px; /* wartość do zmiany */
+    margin: 30px 0 20px;
 }
 
 .header {
@@ -36,12 +38,14 @@ h2 {
 }
 
 .header-inner h1 {
+    font-family: 'Raleway', sans-serif;
     font-size: 6vw;
+    font-weight: 100;
 }
 
 .header-inner p {
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-transform: uppercase;
+    letter-spacing: 2vw;
 }
-
