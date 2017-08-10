@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -20,3 +21,27 @@ h1, h2 {
 h2 {
     font-size: 20px; /* wartość do zmiany */
 }
+
+.header {
+    width: 100%;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-inner {
+    padding: 10vw;
+    box-sizing: content-box;
+    color: rgb(69, 69, 69);
+}
+
+.header-inner h1 {
+    font-size: 6vw;
+}
+
+.header-inner p {
+    text-align: center;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
