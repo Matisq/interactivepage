@@ -37,10 +37,17 @@ h2 {
     color: rgb(69, 69, 69);
 }
 
+.header-inner-background{
+
+    background-color: rgba(255, 255, 255, 0.44);
+
+}
+
 .header-inner h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 6vw;
     font-weight: 100;
+    
 }
 
 .header-inner p {
