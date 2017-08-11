@@ -3,49 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href="css/reset.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="main-nav">
+    
+<nav class="main-nav">
         <ul>
-            <li>Main</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#main">Main</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-
-
-    <header class="header">
+        </nav>
+    <header id="main" class="header">
+       
         <div class="header-inner">
             <h1>Front End Developer</h1>
             <p>One page site</p>
         </div>
     </header>
 
-    <section class="about">
+    <section id="about-me" class="about section-space">
         <h2 id="about-me">About me</h2>
     </section>
 
-    <section class="skills">
+    <section id="skills" class="skills section-space">
         <h2></h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem provident amet quos beatae magni voluptatum nemo fugit libero nulla nihil quis impedit et error, ratione veniam ut esse tempora deserunt.</p>
 
     </section>
 
-    <section class="projects">
+    <section id="projects" class="projects section-space">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati consectetur pariatur quia delectus quaerat similique repellat quod. Obcaecati alias omnis ratione, eum recusandae dicta harum id aliquid nemo, sapiente facilis.</p>
     </section>
-
-    <section class="contact">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, qui labore eveniet, culpa repellat quam dolor eaque molestias sequi libero cupiditate perspiciatis veniam tempore laboriosam, iste doloremque natus deserunt ratione!</p>
+    <section id="contact" class="contact section-space">
+      <div class="form-wrapper">
+       <h2>Contact Form</h2>
+       <p>Feel free to contact us!</p>
+       <form>
+        <div class="form-row">
+            <label for="email">Email adress</label>
+            <input type="text" name="email" placeholder="Your email">
+        </div>
+        <div class="form-row">
+            <label for="topic">Subject</label>
+            <input type="text" name="topic" value="" placeholder="Subject">
+        </div>
+        <div class="form-row">
+            <label for="message">Message</label>
+            <textarea type="text" name="message" value="" placeholder="Type your message here"></textarea>
+        </div>
+           <div class="form-row">
+            <input type="submit" value="Send">
+        </div>
+        </form>
+        </div>
     </section>
+    
 
-    <footer>
+    <footer class="footer section-space">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quasi dolores error impedit labore quos eum ratione sit soluta quisquam quibusdam esse possimus sequi reiciendis, recusandae nobis asperiores, sunt! Minus.</p>
     </footer>
 

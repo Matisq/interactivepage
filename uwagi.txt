@@ -1,1 +1,4 @@
 1. t³o dla "skills" - F0F5EE;
+TO DO:
+1. Dokoñczyæ sekcjê contact.
+2. projects, skills
