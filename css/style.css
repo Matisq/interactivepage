@@ -19,11 +19,13 @@ body {
 h1, h2 {
     text-align: center;
     text-transform: uppercase;
+    
 }
 
 h2 {
     font-size: 40px; /* wartość do zmiany */
     margin: 30px 0 20px;
+    letter-spacing: 10px
 }
 
 .main-nav:after {
@@ -49,10 +51,17 @@ h2 {
     color: rgb(69, 69, 69);
 }
 
+.header-inner-background{
+
+    background-color: rgba(255, 255, 255, 0.44);
+
+}
+
 .header-inner h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 6vw;
     font-weight: 100;
+    
 }
 
 .header-inner p {
@@ -96,7 +105,7 @@ h2 {
     transition: 0.6s color ease;
 }
 
-/* FORM */
+/* CONTACT FORM */
 
 .form-wrapper {
    padding: 40px 50px;
@@ -174,4 +183,43 @@ input[type=submit]:hover {
 .contact input::placeholder, textarea::placeholder {
     color: #fff;
     font-family: inherit;
+}
+
+/* ABOUT */
+.about {
+    width: 100%;
+    height: 30vw;
+    padding: 30px 0;
+}
+
+.about-photo, .about-text {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.about-photo {
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text {
+    padding: 0 30px 0 20px;
+    text-align: justify;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    background-color: #6b6f65;
+    color: white;
+    overflow: hidden;
+    padding: 0 90px;
+}
+
+.footer p {
+    padding: 3px 0;
+    font-size: .7em;
+    text-align: center;
 }
