@@ -1,4 +1,5 @@
 /* MAIN STYLES */
+
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -16,23 +17,25 @@ body {
     clear: both;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
     text-transform: uppercase;
-    
 }
 
 h2 {
-    font-size: 40px; /* wartość do zmiany */
+    font-size: 40px;
+    /* wartość do zmiany */
     margin: 30px 0 20px;
     letter-spacing: 10px
 }
 
 .main-nav:after {
-    content:'';
-    display:block;
-    clear:both;
+    content: '';
+    display: block;
+    clear: both;
 }
+
 
 /* HEADER */
 
@@ -51,17 +54,14 @@ h2 {
     color: rgb(69, 69, 69);
 }
 
-.header-inner-background{
-
+.header-inner-background {
     background-color: rgba(255, 255, 255, 0.44);
-
 }
 
 .header-inner h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 6vw;
     font-weight: 100;
-    
 }
 
 .header-inner p {
@@ -69,8 +69,8 @@ h2 {
     font-size: 2.5vw;
     text-transform: uppercase;
     letter-spacing: 2vw;
-    background-color: rgba(255,255,255,0.6);
 }
+
 
 /* NAV */
 
@@ -83,7 +83,6 @@ h2 {
     background: rgba(145, 138, 138, 0.45);
     overflow: hidden;
 }
-
 
 .main-nav li {
     width: 10%;
@@ -99,19 +98,20 @@ h2 {
     -webkit-transition: 0.6s color ease;
     transition: 0.6s color ease;
 }
+
 .main-nav li a:hover {
     color: #FF5D57;
     -webkit-transition: 0.6s color ease;
     transition: 0.6s color ease;
 }
 
+
 /* CONTACT FORM */
 
 .form-wrapper {
-   padding: 40px 50px;
-   background: rgba(255,255,255,0.6);
+    padding: 40px 50px;
+    background: rgba(255, 255, 255, 0.6);
 }
-
 
 .contact {
     padding: 90px 0px;
@@ -121,27 +121,28 @@ h2 {
     text-align: center;
 }
 
-
 .contact label {
     margin-top: 2em;
     display: block;
     text-align: center;
 }
 
-.contact p,label {
+.contact p,
+label {
     font-size: 20px;
     color: rgb(69, 69, 69);
     font-weight: bold;
 }
 
-.contact input,textarea {
+.contact input,
+textarea {
     width: 40%;
     padding: 15px;
     margin-top: 1em;
     margin-bottom: 1em;
     border: none;
     outline: none;
-    background: rgba(105,99,99,0.40);
+    background: rgba(105, 99, 99, 0.40);
     color: white;
 }
 
@@ -160,32 +161,38 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-     background: #FF5D57;
+    background: #FF5D57;
     -webkit-transition: 0.6s background ease;
     transition: 0.6s background ease;
 }
 
-.contact input:focus,textarea:focus {
-    border: 1px solid rgb(224,224,224);
+.contact input:focus,
+textarea:focus {
+    border: 1px solid rgb(224, 224, 224);
 }
 
-.contact input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+.contact input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
     color: #fff;
     font-family: inherit;
     font-size: 15px;
 }
 
-.contact input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+.contact input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
     color: #fff;
     font-family: inherit;
 }
 
-.contact input::placeholder, textarea::placeholder {
+.contact input::placeholder,
+textarea::placeholder {
     color: #fff;
     font-family: inherit;
 }
+
 
 /* ABOUT */
+
 .about {
     width: 100%;
     height: 35vw;
@@ -193,7 +200,8 @@ input[type=submit]:hover {
     position: relative;
 }
 
-.about-photo, .about-text {
+.about-photo,
+.about-text {
     height: 100%;
     float: left;
 }
@@ -208,7 +216,31 @@ input[type=submit]:hover {
     padding: 3vw 10vw 3vw 20px;
     text-align: justify;
     overflow: hidden;
-    
+}
+
+.about-text-social {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+
+.about-text-social>a {
+    display: inline-block;
+    margin: 0 20px;
+    background: rgb(69, 69, 69);
+    color: white;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+}
+
+.about-text-social>a:hover {
+    background: rgba(105, 99, 99, 0.40);
+    color: rgb(69, 69, 69);
+}
+
+.about-text-social>a>i {
+    padding: .5vw;
 }
 
 .about-photo-me {
@@ -225,18 +257,17 @@ input[type=submit]:hover {
 }
 
 
-
 /* FOOTER */
+
 .footer {
     width: 100%;
-    background-color: #6b6f65;
-    color: white;
+    background-color: rgb(69, 69, 69);
+    color: rgb(203, 203, 203);
     overflow: hidden;
     padding: 0 90px;
 }
 
 .footer p {
     padding: 3px 0;
-    font-size: .7em;
     text-align: center;
 }
